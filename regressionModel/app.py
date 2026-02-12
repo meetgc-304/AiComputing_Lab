@@ -8,7 +8,7 @@ st.set_page_config(page_title="CA House Price Predictor", layout="centered")
 # 2. Load the model
 # Ensure 'linear_regression_model.joblib' is in the same folder as this script
 try:
-    model = joblib.load('/Users/mac/Desktop/ONE/Sem 8/Ai Computing/Lab/exp-1/linear_regression_model.joblib')
+    model = joblib.load('linear_regression_model.joblib')
 except:
     st.error("Model file not found! Please place 'linear_regression_model.joblib' in the current directory.")
 
