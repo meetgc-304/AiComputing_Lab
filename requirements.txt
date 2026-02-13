@@ -1,7 +1,5 @@
-flask
-joblib
-scikit-learn
-numpy
-pandas
-scikit-learn==1.6.1
 streamlit
+joblib
+scikit-learn==1.6.1
+numpy
+altair==4.2.2
